@@ -1,0 +1,31 @@
+.card{
+    /* min-height: 300px;
+    min-width: 600px;
+    margin: 6rem auto;
+    border: 1px solid #ddd;
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border: 4px dashed #00000020;
+    border-radius: 5px; */
+}
+
+.drag{
+    border: "dashed grey 4px";
+    background-color: "rgba(255;255;255;.8)";
+    position: "absolute";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.drop{
+    position: "absolute";
+    top: "50%";
+    right: 0;
+    left: 0;
+    text-align: "center";
+    color: "grey";
+}
